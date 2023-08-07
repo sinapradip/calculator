@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    background-color: lightblue;
+}
+h3 {
+    text-align: center;
+}
+button {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.2rem 0;
+}
+.zero {
+    width: 6.2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.2rem;
+}
+.result {
+    width: 10rem;
+}
+.outputscreen {
+    display: flex;
+    justify-content: center;    
+}
+input {
+    width: 12.8rem;
+    height: 2rem;
+}
